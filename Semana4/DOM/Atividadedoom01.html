@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doom Atividade 01</title>
+</head>
+<body>
+    <h1 id="cabecalho" onclick="fazMagica()">Atividade</h1>
+    <button onclick="fazMagica()">Faz magica</button>
+    <input type="text">
+    <script>
+        prompt("Alguma coisa")
+        function fazMagica(){
+            console.log("Clicou!"+ contador);
+            contador++;
+            var h1 = document.getElementById("cabecalho");
+            var frase = prompt("Escreva uma frase para a magica continuar: ")
+            h1.innerHTML = frase
+        }
+    </script>
+</body>
+</html>
