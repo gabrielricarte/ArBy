@@ -10,8 +10,8 @@ console.log(fatorial);
 
 
 
-fatorial = fatorial *  i;
+/*fatorial = fatorial *  i;
 fatorial =  1 * 1;
 fatorial =  1 * 2;
 fatorial =  2 * 3;
-// como resolver
+ como resolver*/
