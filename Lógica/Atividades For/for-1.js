@@ -6,18 +6,19 @@
   var palavra = rs.question("Escreva uma palavra");
   //pergunta.charAt(())
   var size = palavra.length;
-  var palavraDois = "";
+  var palavraReservada = "";
 
  for(var i = 0; i < size; i++){
      var letra = palavra.charAt(i);
+     console.log(letra)
      if(letra == "a"){
-        palavraDois+= letra.toUpperCase();
+        palavraReservada = palavraReservada + letra.toUpperCase(); // Mesma coisa que palavraReservada += letra.toUpperCase();
      }else{
-       palavraDois+= letra;
+       palavraReservada+= letra;
      }
      
  }
 
- console.log(palavraDois);
+ console.log(palavraReservada);
 
 
